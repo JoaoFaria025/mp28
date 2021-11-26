@@ -8,9 +8,15 @@ iframe{
     height:306px;
     border-radius:5px;
 }
+.sobre .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:300px;
+}
 #ft_lucas{width:330px;border-radius: 25px;}
-
-
 /* .parallax {
   /* The image used 
   background: url("../img/img_lucas.jpeg");
