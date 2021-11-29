@@ -13,6 +13,9 @@ iframe{
     align-items: center;
     justify-content: center;
 }
+#stats{
+    margin:0 auto;
+}
 .card{
     width:300px;
 }
@@ -141,4 +144,12 @@ height: 25px;
 line-height: 10px;
 font-size:15px;
 text-align: center;
+}
+@media (max-width: 992px)
+{
+    #coluna{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
 }
